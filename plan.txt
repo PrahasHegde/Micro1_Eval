@@ -1,0 +1,35 @@
+EVAL SUBMSSION
+
+PROBLEM : AI models brreak in tasks that need real expertise, edge cases and careful judgement. Find the gaps and turn it intp a eval (reliable ways to 
+score the answer and show where the AI models fail)
+
+1. Real Gap - somthing an expert can do relaibly but current models get wrong. It should be real not trick question
+2. Rigorous Eval - clear tasks with expected ansers or scoring rubric, covering edge cases and judgement calls, with a grader that doesn't produce false passes or false fails
+3. Reproducibility - anyone can run the eval and get same results
+
+
+eg. a CA notices uses AI models to handle standard tax Q's, it answers well, but often get cross-border cases wrong (income in 2 countries),
+he writes 10 scenarios with expert verified ansers, he builds a script that sends each one to several AI models and scores the answers automatically against a rubric
+of corect rule, calculation and reasoning. He shows which type of cases models fail more often and why
+
+** You can choose any field - software, finance, legal ,health, science, engineering, design etc.  (Quality matters more than Qualntity)**
+
+
+README : 
+1. short description : few lines on the domain, gap and key findings
+2. video walkthrough : video with problem ,gap and with AI voice
+3. Domain and expertise
+4. what it tests and why it matters : who it's for and why the gap matters in practice
+5. setup and run insteructions
+6. models tested and results : model ID, versions, date of run, scores etc.
+7. Failure analysis
+8. prior work and benchmarks, datasets used
+
+EXTRA FILES (included in zip file apart from RREADME):
+1. Tasks : inputs and expected outputs or grading criteria, covering edge cases and judgement calls and easy cases
+2. Scoring logic : automated grading, a rubric or both with explaination of how scores are calculated.(If use AI models as grader name it, include prompt and explain how you checked the reliablity)
+3. Results : raw model outputs and scores from your own run
+4. Dependencies : requirements file , .env file
+
+
+JUDGEMENT : scored out of 100, using a judge rubric. A submission is scored only after it passes eligibilty, completeness, integrity and Reproducibility checks
