@@ -1,0 +1,122 @@
+{
+  "_comment": "Models run by src/run_models.py. Set enabled=false to skip a model. params are passed through to the provider unchanged. Ollama models run locally (temperature 0, fixed seed).",
+  "models": [
+    {
+      "label": "qwen3-4b",
+      "provider": "ollama",
+      "model": "qwen3:4b",
+      "params": {
+        "think": false,
+        "options": {
+          "temperature": 0,
+          "seed": 2026,
+          "num_ctx": 4096,
+          "num_predict": 2048
+        }
+      },
+      "enabled": true
+    },
+    {
+      "label": "qwen2.5-7b",
+      "provider": "ollama",
+      "model": "qwen2.5:7b",
+      "params": {
+        "options": {
+          "temperature": 0,
+          "seed": 2026,
+          "num_ctx": 4096,
+          "num_predict": 2048
+        }
+      },
+      "enabled": true
+    },
+    {
+      "label": "llama3-8b",
+      "provider": "ollama",
+      "model": "llama3:latest",
+      "params": {
+        "options": {
+          "temperature": 0,
+          "seed": 2026,
+          "num_ctx": 4096,
+          "num_predict": 2048
+        }
+      },
+      "enabled": true
+    },
+    {
+      "label": "claude-opus-5-5",
+      "provider": "anthropic",
+      "model": "claude-opus-5-5",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "params": {
+        "max_tokens": 32000,
+        "thinking": {
+          "type": "adaptive"
+        },
+        "output_config": {
+          "effort": "high"
+        }
+      },
+      "enabled": false
+    },
+    {
+      "label": "claude-sonnet-5-5",
+      "provider": "anthropic",
+      "model": "claude-sonnet-5-5",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "params": {
+        "max_tokens": 32000,
+        "thinking": {
+          "type": "adaptive"
+        },
+        "output_config": {
+          "effort": "high"
+        }
+      },
+      "enabled": false
+    },
+    {
+      "label": "claude-haiku-5-5",
+      "provider": "anthropic",
+      "model": "claude-haiku-5-5",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "params": {
+        "max_tokens": 32000,
+        "thinking": {
+          "type": "adaptive"
+        },
+        "output_config": {
+          "effort": "high"
+        }
+      },
+      "enabled": false
+    },
+    {
+      "label": "openai",
+      "provider": "openai_compat",
+      "model": "SET-TO-CURRENT-OPENAI-MODEL-ID",
+      "api_key_env": "OPENAI_API_KEY",
+      "params": {},
+      "enabled": false
+    },
+    {
+      "label": "gemini",
+      "provider": "openai_compat",
+      "model": "SET-TO-CURRENT-GEMINI-MODEL-ID",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "api_key_env": "GEMINI_API_KEY",
+      "params": {},
+      "enabled": false
+    },
+    {
+      "label": "openrouter-example",
+      "provider": "openai_compat",
+      "model": "SET-TO-AN-OPENROUTER-MODEL-ID",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "params": {},
+      "enabled": false
+    }
+  ]
+}

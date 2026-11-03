@@ -1,0 +1,35 @@
+FIFA World Cup 26 Regulations, Article 13: Equal points and qualification for knockout stages (verbatim)
+
+If two or more teams in the same group are equal on points after the completion of the group stage, the following criteria, in the order below, shall be applied to determine the ranking:
+
+Step 1:
+a) greatest number of points obtained in the group matches between the teams concerned;
+b) superior goal difference resulting from the group matches between the teams concerned;
+c) greatest number of goals scored in all group matches between the teams concerned.
+
+Step 2:
+If, after having applied criteria a) to c) above, teams still have an equal ranking, and in order to determine their final rankings, criteria a) to c) above are applied to the matches between the remaining teams only. If no decision can be made through this procedure, criteria d) to f) below shall apply as follows to the two or more teams still equal on points:
+d) superior goal difference in all group matches;
+e) greatest number of goals scored in all group matches;
+f) highest team conduct score (players and team officials) relating to the number of yellow and red cards obtained:
+ - yellow card: minus 1 point
+ - indirect red card (as a result of two yellow cards): minus 3 points
+ - direct red card: minus 4 points
+ - yellow card and direct red card: minus 5 points
+Only one of the above deductions shall be applied to a player or team official in a single match. The team with the highest number of points shall be ranked highest.
+
+With respect to the second step, all affected teams will be ranked by applying the criteria d) to f) in order. If one team qualifies for a higher or lower ranking pursuant to one criterion, but it is not possible to rank all teams on the basis of the same criterion, the remaining two or three teams will be ranked pursuant to the next criterion, and so on. In any case, the second step of the ranking does not restart for the two or three teams remaining after application of a criterion.
+
+Step 3:
+If no decision can be made through the procedures of step 1 and 2, the following shall apply:
+g) the two or more teams still equal on points shall be ranked according to the most recent published edition of the FIFA/Coca-Cola Men's World Ranking;
+h) the two or more teams still equal on points shall be ranked according to the published edition of the FIFA/Coca-Cola Men's World Ranking immediately preceding the most recent published edition continually until a decision can be made.
+
+The eight best-ranked teams among those finishing third (third-placed teams from 1 to 8)
+The eight best teams among those ranked third will be determined as follows:
+a) greatest number of points obtained in all group matches;
+b) goal difference resulting from all group matches;
+c) greatest number of goals scored in all group matches;
+d) highest team conduct score (players and team officials) relating to the number of yellow and red cards obtained in all group matches and calculated as per article 13 paragraph 1, step 2;
+e) the two or more teams still equal on points shall be ranked according to the most recent published edition of the FIFA/Coca-Cola Men's World Ranking;
+f) the two or more teams still equal on points shall be ranked according to the published edition of the FIFA/Coca-Cola Men's World Ranking immediately preceding the most recent published edition continually until a decision can be made.

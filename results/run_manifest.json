@@ -1,0 +1,55 @@
+[
+  {
+    "started_utc": "2026-11-03T13:54:45+00:00",
+    "git_commit": "35ac3f95dca065f8d36f8cbef4c7633ceceb2a17",
+    "tasks_sha256": "e1ed3eb9d58b4f77a2add36c340986612ed2609789ca20770763d28d040cf719",
+    "python": "3.11.3",
+    "conditions": [
+      "closed_book",
+      "open_book"
+    ],
+    "samples": 1,
+    "models": [
+      {
+        "label": "qwen3-4b",
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "params": {
+          "think": false,
+          "options": {
+            "temperature": 0,
+            "seed": 2026,
+            "num_ctx": 4096,
+            "num_predict": 2048
+          }
+        }
+      },
+      {
+        "label": "qwen2.5-7b",
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "params": {
+          "options": {
+            "temperature": 0,
+            "seed": 2026,
+            "num_ctx": 4096,
+            "num_predict": 2048
+          }
+        }
+      },
+      {
+        "label": "llama3-8b",
+        "provider": "ollama",
+        "model": "llama3:latest",
+        "params": {
+          "options": {
+            "temperature": 0,
+            "seed": 2026,
+            "num_ctx": 4096,
+            "num_predict": 2048
+          }
+        }
+      }
+    ]
+  }
+]
