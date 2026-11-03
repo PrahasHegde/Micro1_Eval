@@ -33,3 +33,16 @@ EXTRA FILES (included in zip file apart from RREADME):
 
 
 JUDGEMENT : scored out of 100, using a judge rubric. A submission is scored only after it passes eligibilty, completeness, integrity and Reproducibility checks
+
+
+RULES IN FOOTBALL :
+
+tournament tiebreakers and qualification logic - 
+The gap: Models handle simple standings, but they fail on multi-step tiebreaker procedures. Rules differ between competitions (UEFA applies head-to-head first, 
+while FIFA World Cup rules go to overall goal difference first). When three teams are level, you must restrict the table to matches among those teams, rank them, 
+and re-apply the criteria if only some teams separate. Models skip this step or apply it in the wrong order.
+
+
+Laws of the Game edge cases (refereeing decisions) - 
+The gap: Models mix up old and new rules on offside (deliberate play vs deflection), handball, DOGSO (denying an obvious goal-scoring opportunity), 
+advantage, and restarts. Rules change every year, so models trained on older text often give outdated answers
